@@ -13,7 +13,7 @@ public class AzureAppController {
     @GetMapping("/data")
     public Map<String, String> getData() {
         return Map.of(
-                "message", "Hello from Azure App Service!",
+                "message", "Hello from Azure App Service! - SJBIT",
                 "status", "success"
         );
     }
